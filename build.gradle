@@ -7,6 +7,9 @@ node {
 	download = true
 }
 
+test {
+	maxHeapSize = "512m"
+}
 //declare a build task
 task build
 
